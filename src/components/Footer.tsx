@@ -4,6 +4,22 @@ import { CAFE_INFO } from '../data/menuData';
 import { SITE_CONFIG } from '../config/siteConfig';
 import ravinderImg from '../assets/ravinder-goswami.png';
 
+const InstagramIcon: React.FC<{ className?: string }> = ({ className = 'w-3.5 h-3.5' }) => (
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={className}
+  >
+    <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+  </svg>
+);
+
 interface FooterProps {
   onOpenOwnerLogin: () => void;
   isOwnerLoggedIn?: boolean;
@@ -70,9 +86,10 @@ export const Footer: React.FC<FooterProps> = ({
                   href={SITE_CONFIG.socialLinks.instagram}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-neutral-300 hover:text-pink-400 text-xs font-medium border border-white/5 transition"
+                  className="px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-neutral-300 hover:text-pink-400 text-xs font-medium border border-white/5 transition inline-flex items-center gap-1.5"
                 >
-                  📷 Instagram
+                  <InstagramIcon className="w-3.5 h-3.5 text-pink-400" />
+                  <span>Instagram</span>
                 </a>
               )}
             </div>
@@ -175,12 +192,12 @@ export const Footer: React.FC<FooterProps> = ({
         {/* Developer Credit & Bottom Bar */}
         <div className="pt-8 pb-4 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Ravinder Goswami Developer Profile Card */}
-          <div className="flex items-center gap-3.5 px-4 py-2.5 rounded-2xl bg-gradient-to-r from-amber-500/15 via-orange-500/10 to-transparent border border-amber-500/30 backdrop-blur-sm shadow-xl shadow-black/40 hover:border-amber-400/50 transition">
+          <div className="flex items-center gap-3.5 px-4 py-3 rounded-2xl bg-gradient-to-r from-amber-500/15 via-orange-500/10 to-transparent border border-amber-500/30 backdrop-blur-sm shadow-xl shadow-black/40 hover:border-amber-400/50 transition">
             <div className="relative shrink-0">
               <img
                 src={ravinderImg}
                 alt="Ravinder Goswami - Full Stack Developer"
-                className="w-12 h-12 rounded-full object-cover border-2 border-amber-400 shadow-lg shadow-orange-500/30 ring-2 ring-black"
+                className="w-13 h-13 rounded-full object-cover border-2 border-amber-400 shadow-lg shadow-orange-500/30 ring-2 ring-black"
               />
               <span
                 className="absolute bottom-0 right-0 w-3.5 h-3.5 rounded-full bg-emerald-500 border-2 border-black"
@@ -199,6 +216,17 @@ export const Footer: React.FC<FooterProps> = ({
                   Developer
                 </span>
               </div>
+              {/* Direct Instagram Profile Link */}
+              <a
+                href={SITE_CONFIG.developerInfo?.instagramUrl || "https://www.instagram.com/goswami_sarkaar_333/"}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-1.5 inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-gradient-to-r from-purple-600/30 via-pink-600/30 to-rose-600/30 hover:from-purple-600/50 hover:via-pink-600/50 hover:to-rose-600/50 border border-pink-500/40 text-[11px] font-medium text-pink-200 hover:text-white transition group/insta"
+                title="Follow Ravinder Goswami on Instagram (@goswami_sarkaar_333)"
+              >
+                <InstagramIcon className="w-3 h-3 text-pink-400 group-hover/insta:scale-110 transition-transform" />
+                <span>@{SITE_CONFIG.developerInfo?.instagramUsername || "goswami_sarkaar_333"}</span>
+              </a>
             </div>
           </div>
 

@@ -13,6 +13,12 @@ export interface SiteConfig {
     facebook?: string;
     whatsapp?: string;
   };
+  developerInfo?: {
+    name: string;
+    role: string;
+    instagramUsername: string;
+    instagramUrl: string;
+  };
 }
 
 export const SITE_CONFIG: SiteConfig = {
@@ -31,8 +37,14 @@ export const SITE_CONFIG: SiteConfig = {
     'admin@dreamcafe.in',
   ],
   socialLinks: {
-    instagram: 'https://instagram.com',
+    instagram: 'https://www.instagram.com/goswami_sarkaar_333/',
     facebook: 'https://facebook.com',
     whatsapp: 'https://wa.me/918278233573',
+  },
+  developerInfo: {
+    name: 'Ravinder Goswami',
+    role: 'Full Stack Developer',
+    instagramUsername: 'goswami_sarkaar_333',
+    instagramUrl: 'https://www.instagram.com/goswami_sarkaar_333/',
   },
 };
