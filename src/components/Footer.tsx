@@ -2,6 +2,7 @@ import React from 'react';
 import { Phone, MapPin, Clock, ArrowUp, Lock } from 'lucide-react';
 import { CAFE_INFO } from '../data/menuData';
 import { SITE_CONFIG } from '../config/siteConfig';
+import ravinderImg from '../assets/ravinder-goswami.png';
 
 interface FooterProps {
   onOpenOwnerLogin: () => void;
@@ -171,25 +172,58 @@ export const Footer: React.FC<FooterProps> = ({
           </div>
         </div>
 
-        {/* Bottom Bar */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-neutral-400">
-          <div className="flex items-center gap-1.5">
-            <span>© {CURRENT_YEAR} {SITE_CONFIG.brandName} (Beri). All rights reserved.</span>
+        {/* Developer Credit & Bottom Bar */}
+        <div className="pt-8 pb-4 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-6">
+          {/* Ravinder Goswami Developer Profile Card */}
+          <div className="flex items-center gap-3.5 px-4 py-2.5 rounded-2xl bg-gradient-to-r from-amber-500/15 via-orange-500/10 to-transparent border border-amber-500/30 backdrop-blur-sm shadow-xl shadow-black/40 hover:border-amber-400/50 transition">
+            <div className="relative shrink-0">
+              <img
+                src={ravinderImg}
+                alt="Ravinder Goswami - Full Stack Developer"
+                className="w-12 h-12 rounded-full object-cover border-2 border-amber-400 shadow-lg shadow-orange-500/30 ring-2 ring-black"
+              />
+              <span
+                className="absolute bottom-0 right-0 w-3.5 h-3.5 rounded-full bg-emerald-500 border-2 border-black"
+                title="Active Developer"
+              />
+            </div>
+            <div>
+              <div className="text-[10px] uppercase font-bold tracking-widest text-amber-400 flex items-center gap-1.5">
+                <span>Designed &amp; Developed By</span>
+                <span className="w-1 h-1 rounded-full bg-amber-400" />
+                <span className="text-white/70">Full Stack</span>
+              </div>
+              <div className="text-sm sm:text-base font-extrabold text-white tracking-wide flex items-center gap-2">
+                <span>Ravinder Goswami</span>
+                <span className="text-[10px] font-semibold uppercase px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40">
+                  Developer
+                </span>
+              </div>
+            </div>
           </div>
 
-          <div className="flex items-center gap-4">
+          {/* Quick info & back to top */}
+          <div className="flex items-center gap-4 text-xs text-neutral-400">
             <span className="text-[11px] text-neutral-400">
               Pure Veg Kitchen • Beri, Haryana 124201
             </span>
             <button
               onClick={scrollToTop}
-              className="p-2 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-neutral-300 hover:text-white transition"
+              className="p-2.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-neutral-300 hover:text-white transition group"
               title="Scroll to top"
               aria-label="Back to top"
             >
-              <ArrowUp className="w-4 h-4" />
+              <ArrowUp className="w-4 h-4 group-hover:-translate-y-0.5 transition-transform" />
             </button>
           </div>
+        </div>
+
+        {/* Copyright */}
+        <div className="pt-4 flex flex-col sm:flex-row items-center justify-between text-xs text-neutral-500 border-t border-white/[0.04]">
+          <span>© {CURRENT_YEAR} {SITE_CONFIG.brandName} (Beri). All rights reserved.</span>
+          <span className="text-[11px] text-neutral-500 mt-1 sm:mt-0">
+            Website crafted with React 19 &amp; Three.js by Ravinder Goswami
+          </span>
         </div>
       </div>
     </footer>
