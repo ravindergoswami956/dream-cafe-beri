@@ -16,7 +16,7 @@ Welcome to the **Dream Cafe Professional Web Platform with Autonomous Owner Admi
 Customers can browse the entire website without any friction:
 - **Interactive 3D Centerpiece & 360° Food Studio**: Real-time WebGL models with mouse/touch rotation.
 - **Full Menu & Dynamic Pricing**: Browse all 70+ items across 13 categories, search by keywords, filter by 100% Veg or Spicy.
-- **Live Business Information**: Opening hours, address at Lala Ram Sarup Memorial Park (Beri), and one-touch click-to-call (`tel:+918278233573`).
+- **Live Business Information**: Opening hours, address, and one-touch click-to-call (`tel:+91123xxxxxxx`).
 - **Interactive Map & Directions**: Instant Google Maps navigation directions.
 
 ---

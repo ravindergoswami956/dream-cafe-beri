@@ -617,7 +617,7 @@ export const ThreeShowcaseSection: React.FC = () => {
               View in Menu Catalog
             </a>
             <a
-              href="tel:+918278233573"
+              href="tel:+91123xxxxxxx"
               className="inline-flex items-center justify-center px-6 py-3 rounded-2xl bg-white/5 hover:bg-white/10 text-white font-medium text-sm border border-white/10 transition-all"
             >
               Call XYZ Cafe

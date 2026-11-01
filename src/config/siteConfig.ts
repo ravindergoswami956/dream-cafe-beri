@@ -26,8 +26,8 @@ export const SITE_CONFIG: SiteConfig = {
   tagline: 'The Ultimate 3D Culinary Haven',
   locationName: 'Central Plaza, New City, India',
   fullAddress: 'Shop 24, Crystal Galleria, Main Boulevard, Sector 21, New City 110001, India',
-  phone: '+91 82782 33573',
-  phoneTel: 'tel:+918278233573',
+  phone: '+91 123xxxxxxx',
+  phoneTel: 'tel:+91123xxxxxxx',
   defaultOpeningHours: 'Opens daily at 10:00 AM',
   googleMapsUrl: 'https://maps.google.com/?q=Crystal+Galleria,+Main+Boulevard,+Sector+21,+New+City+110001,+India',
   // Whitelist of authorized owner emails allowed to access the Admin Dashboard
@@ -39,7 +39,7 @@ export const SITE_CONFIG: SiteConfig = {
   socialLinks: {
     instagram: 'https://www.instagram.com/xyz_123/',
     facebook: 'https://facebook.com',
-    whatsapp: 'https://wa.me/918278233573',
+    whatsapp: 'https://wa.me/91123xxxxxxx',
   },
   developerInfo: {
     name: 'Ravinder Goswami',

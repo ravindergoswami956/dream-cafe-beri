@@ -1091,8 +1091,8 @@ export const CAFE_INFO = {
   tagline: 'The Ultimate Hangout & 3D Culinary Haven',
   location: 'Sector 21, New City, India',
   address: 'Shop 24, Crystal Galleria, Main Boulevard, Sector 21, New City 110001, India',
-  phone: '+91 82782 33573',
-  phoneTel: 'tel:+918278233573',
+  phone: '+91 123xxxxxxx',
+  phoneTel: 'tel:+91123xxxxxxx',
   openingHours: 'Opens daily at 10:00 AM',
   mapsUrl: 'https://maps.google.com/?q=Crystal+Galleria,+Main+Boulevard,+Sector+21,+New+City+110001,+India',
 };

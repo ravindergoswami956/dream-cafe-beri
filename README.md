@@ -31,7 +31,7 @@ Welcome to the official repository for **XYZ Cafe**, located in Beri, Jhajjar, H
 
 * **Name:** XYZ Cafe
 * **Address:** Shop 24, Crystal Galleria, Main Boulevard, Sector 21, New City 110001, India
-* **Phone:** +91 82782 33573
+* **Phone:** +91 123xxxxxxx
 * **Opening Hours:** Opens daily at 10:00 AM
 
 ---
