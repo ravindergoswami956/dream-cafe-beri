@@ -65,7 +65,7 @@ export const AboutSection: React.FC = () => {
           </h2>
 
           <p className="text-neutral-300 text-sm sm:text-base leading-relaxed">
-            Located beside the scenic <span className="text-white font-medium">Lala Ram Sarup Memorial Park</span> and near Goswami Electronics, <span className="text-amber-400 font-semibold">XYZ Cafe</span> was born from a simple passion: to bring metropolitan-grade culinary quality, handcrafted fast-casual dining, and warm hospitality to the beloved town of Beri, Haryana.
+            Located at the vibrant <span className="text-white font-medium">Crystal Galleria</span> on Main Boulevard, <span className="text-amber-400 font-semibold">XYZ Cafe</span> was born from a simple passion: to bring metropolitan-grade culinary quality, handcrafted fast-casual dining, and warm hospitality to food lovers.
           </p>
 
           <p className="text-neutral-400 text-sm leading-relaxed">

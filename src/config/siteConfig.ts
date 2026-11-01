@@ -23,13 +23,13 @@ export interface SiteConfig {
 
 export const SITE_CONFIG: SiteConfig = {
   brandName: 'XYZ Cafe',
-  tagline: 'The Ultimate 3D Culinary Haven in Beri',
-  locationName: 'Beri, Haryana, India',
-  fullAddress: 'Lala Ram Sarup Memorial Park, near Goswami Electronics, Beri, Haryana 124201, India',
+  tagline: 'The Ultimate 3D Culinary Haven',
+  locationName: 'Central Plaza, New City, India',
+  fullAddress: 'Shop 24, Crystal Galleria, Main Boulevard, Sector 21, New City 110001, India',
   phone: '+91 82782 33573',
   phoneTel: 'tel:+918278233573',
   defaultOpeningHours: 'Opens daily at 10:00 AM',
-  googleMapsUrl: 'https://maps.google.com/?q=Lala+Ram+Sarup+Memorial+Park,+near+Goswami+Electronics,+Beri,+Haryana+124201,+India',
+  googleMapsUrl: 'https://maps.google.com/?q=Crystal+Galleria,+Main+Boulevard,+Sector+21,+New+City+110001,+India',
   // Whitelist of authorized owner emails allowed to access the Admin Dashboard
   authorizedOwnerEmails: [
     'cafe47516@gmail.com',

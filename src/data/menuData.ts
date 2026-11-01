@@ -1088,11 +1088,11 @@ export const ALL_MENU_ITEMS: MenuItem[] = [
 
 export const CAFE_INFO = {
   name: 'XYZ Cafe',
-  tagline: 'The Ultimate Hangout & 3D Culinary Haven in Beri',
-  location: 'Beri, Haryana, India',
-  address: 'Lala Ram Sarup Memorial Park, near Goswami Electronics, Beri, Haryana 124201, India',
+  tagline: 'The Ultimate Hangout & 3D Culinary Haven',
+  location: 'Sector 21, New City, India',
+  address: 'Shop 24, Crystal Galleria, Main Boulevard, Sector 21, New City 110001, India',
   phone: '+91 82782 33573',
   phoneTel: 'tel:+918278233573',
   openingHours: 'Opens daily at 10:00 AM',
-  mapsUrl: 'https://maps.google.com/?q=Lala+Ram+Sarup+Memorial+Park,+near+Goswami+Electronics,+Beri,+Haryana+124201,+India',
+  mapsUrl: 'https://maps.google.com/?q=Crystal+Galleria,+Main+Boulevard,+Sector+21,+New+City+110001,+India',
 };

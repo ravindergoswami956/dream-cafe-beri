@@ -230,7 +230,7 @@ export const Footer: React.FC<FooterProps> = ({
           {/* Quick info & back to top */}
           <div className="flex items-center gap-4 text-xs text-neutral-400">
             <span className="text-[11px] text-neutral-400">
-              Pure Veg Kitchen • Beri, Haryana 124201
+              Pure Veg Kitchen • Sector 21, New City 110001
             </span>
             <button
               onClick={scrollToTop}

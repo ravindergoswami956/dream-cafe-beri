@@ -30,7 +30,7 @@ Welcome to the official repository for **XYZ Cafe**, located in Beri, Jhajjar, H
 ## 📍 Cafe Information
 
 * **Name:** XYZ Cafe
-* **Address:** Lala Ram Sarup Memorial Park, near Goswami Electronics, Beri, Haryana 124201, India
+* **Address:** Shop 24, Crystal Galleria, Main Boulevard, Sector 21, New City 110001, India
 * **Phone:** +91 82782 33573
 * **Opening Hours:** Opens daily at 10:00 AM
 

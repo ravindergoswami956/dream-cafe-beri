@@ -22,7 +22,7 @@ export const LocationSection: React.FC = () => {
           Visit <span className="gold-gradient-text">XYZ Cafe</span>
         </h2>
         <p className="text-neutral-400 text-sm sm:text-base leading-relaxed">
-          Conveniently located at Lala Ram Sarup Memorial Park near Goswami Electronics in Beri. Step inside for an ambient dine-in experience or call ahead for quick pickup.
+          Conveniently located at Crystal Galleria, Sector 21. Step inside for an ambient dine-in experience or call ahead for quick pickup.
         </p>
       </div>
 
@@ -34,7 +34,7 @@ export const LocationSection: React.FC = () => {
               <span className="text-xs uppercase tracking-wider text-amber-400 font-bold">
                 Official Location Details
               </span>
-              <h3 className="text-2xl font-bold text-white mt-1">XYZ Cafe Beri</h3>
+              <h3 className="text-2xl font-bold text-white mt-1">XYZ Cafe</h3>
             </div>
 
             {/* Address */}
@@ -136,7 +136,7 @@ export const LocationSection: React.FC = () => {
               style={{ border: 0, filter: 'invert(90%) hue-rotate(180deg) contrast(100%)' }}
               loading="lazy"
               allowFullScreen
-              src={`https://maps.google.com/maps?q=Lala+Ram+Sarup+Memorial+Park,+near+Goswami+Electronics,+Beri,+Haryana+124201&t=&z=15&ie=UTF8&iwloc=&output=embed`}
+              src={`https://maps.google.com/maps?q=Crystal+Galleria,+Main+Boulevard,+Sector+21,+New+City+110001&t=&z=15&ie=UTF8&iwloc=&output=embed`}
             />
 
             {/* Map Overlay Card */}
@@ -146,7 +146,7 @@ export const LocationSection: React.FC = () => {
                 XYZ Cafe Landmark
               </div>
               <p className="text-xs text-white font-medium mt-1">
-                Lala Ram Sarup Memorial Park, near Goswami Electronics, Beri
+                Shop 24, Crystal Galleria, Main Boulevard, Sector 21
               </p>
               <a
                 href={CAFE_INFO.mapsUrl}
@@ -160,7 +160,7 @@ export const LocationSection: React.FC = () => {
           </div>
 
           <div className="mt-4 flex flex-wrap items-center justify-between text-xs text-neutral-400 pt-2">
-            <span>📍 Beri, Haryana 124201</span>
+            <span>📍 Sector 21, New City 110001</span>
             <span className="text-amber-400 font-medium">Free Parking & Ample Seating</span>
           </div>
         </div>
