@@ -1,8 +1,7 @@
 import React from 'react';
-import { Phone, MapPin, Clock, ArrowUp, Lock } from 'lucide-react';
+import { Phone, MapPin, Clock, ArrowUp, Lock, Code2 } from 'lucide-react';
 import { CAFE_INFO } from '../data/menuData';
 import { SITE_CONFIG } from '../config/siteConfig';
-import ravinderImg from '../assets/ravinder-goswami.png';
 
 const InstagramIcon: React.FC<{ className?: string }> = ({ className = 'w-3.5 h-3.5' }) => (
   <svg
@@ -194,13 +193,11 @@ export const Footer: React.FC<FooterProps> = ({
           {/* Ravinder Goswami Developer Profile Card */}
           <div className="flex items-center gap-3.5 px-4 py-3 rounded-2xl bg-gradient-to-r from-amber-500/15 via-orange-500/10 to-transparent border border-amber-500/30 backdrop-blur-sm shadow-xl shadow-black/40 hover:border-amber-400/50 transition">
             <div className="relative shrink-0">
-              <img
-                src={ravinderImg}
-                alt="Ravinder Goswami - Full Stack Developer"
-                className="w-13 h-13 rounded-full object-cover border-2 border-amber-400 shadow-lg shadow-orange-500/30 ring-2 ring-black"
-              />
+              <div className="w-11 h-11 rounded-2xl bg-gradient-to-br from-amber-400/20 to-orange-500/20 border border-amber-400/40 flex items-center justify-center text-amber-400 shadow-md shadow-orange-500/20">
+                <Code2 className="w-5 h-5" />
+              </div>
               <span
-                className="absolute bottom-0 right-0 w-3.5 h-3.5 rounded-full bg-emerald-500 border-2 border-black"
+                className="absolute -bottom-0.5 -right-0.5 w-3 h-3 rounded-full bg-emerald-500 border-2 border-black"
                 title="Active Developer"
               />
             </div>
@@ -218,14 +215,14 @@ export const Footer: React.FC<FooterProps> = ({
               </div>
               {/* Direct Instagram Profile Link */}
               <a
-                href={SITE_CONFIG.developerInfo?.instagramUrl || "https://www.instagram.com/goswami_sarkaar_333/"}
+                href={SITE_CONFIG.developerInfo?.instagramUrl || "https://www.instagram.com/xyz_123/"}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-1.5 inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-gradient-to-r from-purple-600/30 via-pink-600/30 to-rose-600/30 hover:from-purple-600/50 hover:via-pink-600/50 hover:to-rose-600/50 border border-pink-500/40 text-[11px] font-medium text-pink-200 hover:text-white transition group/insta"
-                title="Follow Ravinder Goswami on Instagram (@goswami_sarkaar_333)"
+                title="Follow Ravinder Goswami on Instagram (@xyz_123)"
               >
                 <InstagramIcon className="w-3 h-3 text-pink-400 group-hover/insta:scale-110 transition-transform" />
-                <span>@{SITE_CONFIG.developerInfo?.instagramUsername || "goswami_sarkaar_333"}</span>
+                <span>@{SITE_CONFIG.developerInfo?.instagramUsername || "xyz_123"}</span>
               </a>
             </div>
           </div>

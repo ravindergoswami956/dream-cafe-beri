@@ -13,7 +13,7 @@ export const AboutSection: React.FC = () => {
             <div className="relative rounded-3xl overflow-hidden border border-amber-500/20 shadow-2xl shadow-black/80 aspect-[4/3]">
               <img
                 src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1000&q=80"
-                alt="Dream Cafe Interior Ambiance"
+                alt="XYZ Cafe Interior Ambiance"
                 className="w-full h-full object-cover"
                 loading="lazy"
               />
@@ -65,7 +65,7 @@ export const AboutSection: React.FC = () => {
           </h2>
 
           <p className="text-neutral-300 text-sm sm:text-base leading-relaxed">
-            Located beside the scenic <span className="text-white font-medium">Lala Ram Sarup Memorial Park</span> and near Goswami Electronics, <span className="text-amber-400 font-semibold">Dream Cafe</span> was born from a simple passion: to bring metropolitan-grade culinary quality, handcrafted fast-casual dining, and warm hospitality to the beloved town of Beri, Haryana.
+            Located beside the scenic <span className="text-white font-medium">Lala Ram Sarup Memorial Park</span> and near Goswami Electronics, <span className="text-amber-400 font-semibold">XYZ Cafe</span> was born from a simple passion: to bring metropolitan-grade culinary quality, handcrafted fast-casual dining, and warm hospitality to the beloved town of Beri, Haryana.
           </p>
 
           <p className="text-neutral-400 text-sm leading-relaxed">

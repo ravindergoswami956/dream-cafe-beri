@@ -453,7 +453,7 @@ export const ThreeShowcaseSection: React.FC = () => {
           Experience Culinary Art in <span className="gold-gradient-text">360° Real-Time 3D</span>
         </h2>
         <p className="text-neutral-400 text-sm sm:text-base leading-relaxed">
-          Rotate, examine textures, and explore signature handcrafted creations from Dream Cafe Beri. Rendered dynamically in WebGL right in your browser.
+          Rotate, examine textures, and explore signature handcrafted creations from XYZ Cafe Beri. Rendered dynamically in WebGL right in your browser.
         </p>
       </div>
 
@@ -620,7 +620,7 @@ export const ThreeShowcaseSection: React.FC = () => {
               href="tel:+918278233573"
               className="inline-flex items-center justify-center px-6 py-3 rounded-2xl bg-white/5 hover:bg-white/10 text-white font-medium text-sm border border-white/10 transition-all"
             >
-              Call Dream Cafe
+              Call XYZ Cafe
             </a>
           </div>
         </div>

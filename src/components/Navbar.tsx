@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Phone, MapPin, Clock, Menu as MenuIcon, X, Lock } from 'lucide-react';
 import { CAFE_INFO } from '../data/menuData';
+import { SITE_CONFIG } from '../config/siteConfig';
 
 interface NavbarProps {
   isOwnerLoggedIn?: boolean;
@@ -69,7 +70,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               </div>
               <div className="flex flex-col">
                 <span className="font-heading font-black text-xl tracking-wider text-white flex items-center gap-1.5">
-                  DREAM CAFE
+                  {SITE_CONFIG.brandName.toUpperCase()}
                   <span className="inline-block w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse" />
                 </span>
                 <span className="text-[10px] uppercase tracking-widest text-amber-400/90 font-medium -mt-1">

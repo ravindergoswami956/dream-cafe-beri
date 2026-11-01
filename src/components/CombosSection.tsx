@@ -16,7 +16,7 @@ export const CombosSection: React.FC = () => {
       title: 'Family Feast Combo',
       tag: 'Group Favorite',
       icon: '👨‍👩‍👧‍👦',
-      description: 'Generous assortment designed for weekend family get-togethers and celebrations at Dream Cafe.',
+      description: 'Generous assortment designed for weekend family get-togethers and celebrations at XYZ Cafe.',
       includes: ['2 Medium Veg Pizzas', 'Stuffed Garlic Bread', 'Veg Kurkure Momos Platter', '4 Chilled Shakes or Beverages'],
       highlight: false,
     },

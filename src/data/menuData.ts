@@ -166,7 +166,7 @@ export const ALL_MENU_ITEMS: MenuItem[] = [
     id: 'bg-8',
     name: 'Special Burger',
     category: 'burgers',
-    description: 'The Dream Cafe signature masterpiece: double patty, double cheese, and chef secret spice blend.',
+    description: 'The XYZ Cafe signature masterpiece: double patty, double cheese, and chef secret spice blend.',
     image: 'https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80',
     badge: 'House Signature',
     popular: true,
@@ -844,7 +844,7 @@ export const ALL_MENU_ITEMS: MenuItem[] = [
     id: 'sd-8',
     name: 'Special Cake',
     category: 'sides',
-    description: 'Dream Cafe celebratory handcrafted dessert cake layered with silky frosting and chocolate.',
+    description: 'XYZ Cafe celebratory handcrafted dessert cake layered with silky frosting and chocolate.',
     image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80',
     badge: 'Celebration',
     vegetarian: true,
@@ -882,7 +882,7 @@ export const ALL_MENU_ITEMS: MenuItem[] = [
     id: 'mg-4',
     name: 'Special Maggie',
     category: 'maggie',
-    description: 'The Dream Cafe signature preparation loaded with mixed veggies, paneer, double cheese, and secret spices.',
+    description: 'The XYZ Cafe signature preparation loaded with mixed veggies, paneer, double cheese, and secret spices.',
     image: 'https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&w=800&q=80',
     badge: 'House Special',
     popular: true,
@@ -1087,7 +1087,7 @@ export const ALL_MENU_ITEMS: MenuItem[] = [
 ];
 
 export const CAFE_INFO = {
-  name: 'Dream Cafe',
+  name: 'XYZ Cafe',
   tagline: 'The Ultimate Hangout & 3D Culinary Haven in Beri',
   location: 'Beri, Haryana, India',
   address: 'Lala Ram Sarup Memorial Park, near Goswami Electronics, Beri, Haryana 124201, India',

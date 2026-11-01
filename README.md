@@ -1,9 +1,9 @@
-# ☕ Dream Cafe (Beri) — Official Website
+# ☕ XYZ Cafe (Beri) — Official Website
 
 > **Live Production Website:**  
 > 👉 **[https://ravindergoswami956.github.io/dream-cafe-beri/](https://ravindergoswami956.github.io/dream-cafe-beri/)**
 
-Welcome to the official repository for **Dream Cafe**, located in Beri, Jhajjar, Haryana. This is a high-performance, modern restaurant web application built with **React 19**, **Three.js (3D Food Studio)**, **Tailwind CSS v4**, and **Supabase**.
+Welcome to the official repository for **XYZ Cafe**, located in Beri, Jhajjar, Haryana. This is a high-performance, modern restaurant web application built with **React 19**, **Three.js (3D Food Studio)**, **Tailwind CSS v4**, and **Supabase**.
 
 ---
 
@@ -29,11 +29,11 @@ Welcome to the official repository for **Dream Cafe**, located in Beri, Jhajjar,
 
 ## 📍 Cafe Information
 
-* **Name:** Dream Cafe
+* **Name:** XYZ Cafe
 * **Address:** Lala Ram Sarup Memorial Park, near Goswami Electronics, Beri, Haryana 124201, India
 * **Phone:** +91 82782 33573
 * **Opening Hours:** Opens daily at 10:00 AM
 
 ---
 
-© 2026 Dream Cafe (Beri). All rights reserved.
+© 2026 XYZ Cafe (Beri). All rights reserved.

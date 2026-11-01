@@ -29,7 +29,7 @@ export const Hero: React.FC = () => {
 
             {/* Subtitle */}
             <p className="text-neutral-300 text-base sm:text-lg leading-relaxed max-w-xl mx-auto lg:mx-0">
-              Welcome to <span className="text-amber-400 font-semibold">Dream Cafe</span> at Lala Ram Sarup Memorial Park. Savor artisan pizzas with volcanic cheese pulls, towering loaded burgers, spicy kurkure momos, and decadent thick cold brews.
+              Welcome to <span className="text-amber-400 font-semibold">XYZ Cafe</span> at Lala Ram Sarup Memorial Park. Savor artisan pizzas with volcanic cheese pulls, towering loaded burgers, spicy kurkure momos, and decadent thick cold brews.
             </p>
 
             {/* Action Buttons */}

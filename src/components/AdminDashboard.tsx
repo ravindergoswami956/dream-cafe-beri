@@ -230,7 +230,7 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
           </div>
           <div>
             <h1 className="text-base font-extrabold tracking-wide text-white flex items-center gap-2">
-              Dream Cafe Dashboard
+              XYZ Cafe Dashboard
               <span className="text-[10px] font-semibold uppercase px-2 py-0.5 rounded-full bg-green-500/15 text-green-400 border border-green-500/30">
                 Owner Mode
               </span>

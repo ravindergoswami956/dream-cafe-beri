@@ -22,7 +22,7 @@ export interface SiteConfig {
 }
 
 export const SITE_CONFIG: SiteConfig = {
-  brandName: 'Dream Cafe',
+  brandName: 'XYZ Cafe',
   tagline: 'The Ultimate 3D Culinary Haven in Beri',
   locationName: 'Beri, Haryana, India',
   fullAddress: 'Lala Ram Sarup Memorial Park, near Goswami Electronics, Beri, Haryana 124201, India',
@@ -37,14 +37,14 @@ export const SITE_CONFIG: SiteConfig = {
     'admin@dreamcafe.in',
   ],
   socialLinks: {
-    instagram: 'https://www.instagram.com/goswami_sarkaar_333/',
+    instagram: 'https://www.instagram.com/xyz_123/',
     facebook: 'https://facebook.com',
     whatsapp: 'https://wa.me/918278233573',
   },
   developerInfo: {
     name: 'Ravinder Goswami',
     role: 'Full Stack Developer',
-    instagramUsername: 'goswami_sarkaar_333',
-    instagramUrl: 'https://www.instagram.com/goswami_sarkaar_333/',
+    instagramUsername: 'xyz_123',
+    instagramUrl: 'https://www.instagram.com/xyz_123/',
   },
 };

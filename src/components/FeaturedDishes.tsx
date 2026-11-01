@@ -82,7 +82,7 @@ export const FeaturedDishes: React.FC<FeaturedDishesProps> = ({ onSelectItem }) 
             Signature Hall of Fame
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight">
-            Dream Cafe <span className="gold-gradient-text">Masterpieces</span>
+            XYZ Cafe <span className="gold-gradient-text">Masterpieces</span>
           </h2>
         </div>
         <p className="text-neutral-400 text-sm max-w-md mt-3 md:mt-0">

@@ -19,7 +19,7 @@ export const LocationSection: React.FC = () => {
           Find Us in Beri
         </div>
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-4">
-          Visit <span className="gold-gradient-text">Dream Cafe</span>
+          Visit <span className="gold-gradient-text">XYZ Cafe</span>
         </h2>
         <p className="text-neutral-400 text-sm sm:text-base leading-relaxed">
           Conveniently located at Lala Ram Sarup Memorial Park near Goswami Electronics in Beri. Step inside for an ambient dine-in experience or call ahead for quick pickup.
@@ -34,7 +34,7 @@ export const LocationSection: React.FC = () => {
               <span className="text-xs uppercase tracking-wider text-amber-400 font-bold">
                 Official Location Details
               </span>
-              <h3 className="text-2xl font-bold text-white mt-1">Dream Cafe Beri</h3>
+              <h3 className="text-2xl font-bold text-white mt-1">XYZ Cafe Beri</h3>
             </div>
 
             {/* Address */}
@@ -130,7 +130,7 @@ export const LocationSection: React.FC = () => {
           {/* Simulated Interactive Map Frame */}
           <div className="relative w-full h-[340px] sm:h-[400px] rounded-2xl overflow-hidden bg-neutral-900 border border-white/5">
             <iframe
-              title="Dream Cafe Beri Location Map"
+              title="XYZ Cafe Beri Location Map"
               width="100%"
               height="100%"
               style={{ border: 0, filter: 'invert(90%) hue-rotate(180deg) contrast(100%)' }}
@@ -143,7 +143,7 @@ export const LocationSection: React.FC = () => {
             <div className="absolute bottom-4 left-4 right-4 sm:right-auto sm:max-w-sm bg-[#0E0C0A]/95 backdrop-blur-md p-4 rounded-2xl border border-amber-500/30 shadow-2xl shadow-black">
               <div className="flex items-center gap-2 text-amber-400 font-bold text-xs uppercase tracking-wider">
                 <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-                Dream Cafe Landmark
+                XYZ Cafe Landmark
               </div>
               <p className="text-xs text-white font-medium mt-1">
                 Lala Ram Sarup Memorial Park, near Goswami Electronics, Beri
